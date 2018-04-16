@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>LilaSoft.Architectures.Domains.Domain</RootNamespace>
+    <PackageId>LilaSoft.Architectures.Domains.Domain</PackageId>
+    <Authors>Johnny Behague</Authors>
+    <Company>LilaSoft</Company>
+    <Product>LilaSoft.Architectures.Domains.Domain</Product>
+    <Description>Le projet LilaSoft.Architectures.Domains.Domain est un fork du projet du repository eShopContainers afin de faciliter mes futurs développements. Comme tous mes forks issus de ce projet, ils sont issus à changement suivant l'évolution de mes besoins.</Description>
+    <RepositoryType>Github</RepositoryType>
+    <PackageLicenseUrl>https://github.com/Beowulf59000/LilaSoft.Architectures.Domains.Domain/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Beowulf59000/LilaSoft.Architectures.Domains.Domain/</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
